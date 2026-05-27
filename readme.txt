@@ -1,5 +1,6 @@
-im creating a fufu process recipe
-with soup
-hopefully it comes out best
-my first test
-crdt : owners of the images downloded via google
+I'm creating My food recipes page
+Hopefully they come out right
+My first test
+crdt : Owners of the VARIOUS images downloded via google 
+Apologies if i didnt mean names
+Thank you
