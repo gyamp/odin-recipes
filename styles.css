@@ -19,6 +19,8 @@
   overflow: hidden;
   margin-top: 80px;
   margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
   border: 3px solid black;
   border-radius: 5px;
   box-shadow: 3px 3px 6px grey;
@@ -123,3 +125,10 @@ white-space: nowrap;
 .box.seven a:hover{ 
   color: purple; 
 }
+.box.seven {
+display: flex;
+justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
