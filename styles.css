@@ -1,0 +1,125 @@
+.box.one {
+  width: 1000px;
+  height: 100px;
+  padding: 20px;
+  margin: 20px auto;
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  box-shadow: 3px 3px 6px grey;
+   gap: 10px;
+}
+
+.box.two {
+  width: 100%;
+  max-width: 750px;
+  height: 420px;
+  overflow: hidden;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  border: 3px solid black;
+  border-radius: 5px;
+  box-shadow: 3px 3px 6px grey;
+}
+
+.box.two img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.box.three {
+  width: 600px;
+  height: 60px;
+  padding: 20px;
+  margin: 10px auto;
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  box-shadow: 3px 3px 6px grey;
+  font-style: italic;
+}
+
+ul { 
+  gap: 10px;
+  padding: 20px;
+  margin: 20px 20px 20px;  
+  background-color: orange;   
+  list-style: none;  
+  border: 3px solid black;
+  border-radius: 5px;
+  box-shadow: 3px 3px 6px grey;  
+  text-align: left;   
+}
+.box.four a:link, 
+.box.five a:link, 
+.box.six  a:link { 
+  color: black;
+  gap: 10px;
+  padding: 10px;
+  background-color: orange; 
+  border: 3px solid black;
+  border-radius: 5px;
+  box-shadow: 3px 3px 6px grey;
+}
+.box.four a:visited, 
+.box.five a:visited, 
+.box.six a:visited { 
+  text-decoration: underline;
+  text-decoration-thickness: 20px;
+  font-size: 20px;
+  color:red;
+  background-color: transparent; 
+  white-space: nowrap;
+}
+.box.four a:hover,
+ .box.five a:hover, 
+ .box.six a:hover{ 
+  color:purple; 
+}
+.box.four a,
+.box.five a,
+.box.six a {
+display: in-line-block;
+white-space: nowrap;
+margin: 10px 20px;
+}
+.box.four li, 
+.box.five li, 
+.box.six li {
+  display: in-line-block;
+  margin: 20px 20px;
+  text-align: left;
+  column-gap: 10px;
+  width: 10px;
+  height: 40px;
+}
+.box.seven {
+  width: 120px;
+  height: 100px;
+  padding: 20px;
+  margin: 20px;
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: orange;
+  color: white;
+  text-align: center;
+  box-shadow: 3px 3px grey;
+   gap: 5px;
+}
+.container {
+  display: flex;
+  gap: 5px;
+  align-items: flex-start;
+}
+.box.seven a div{
+display: block;
+white-space: nowrap;
+}
+.box.seven a:hover{ 
+  color: purple; 
+}
