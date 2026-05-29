@@ -146,3 +146,13 @@ justify-content: center;
   object-fit: cover;
   display: block;
 }
+.box.nine  { 
+  color: black;
+  gap: 20px;
+  padding: 10px;
+  background-color: orange; 
+  border: 3px solid black;
+  border-radius: 5px;
+  box-shadow: 3px 3px 6px grey;
+  column-gap: 10px;
+}
