@@ -206,7 +206,7 @@ html {
 
 .box.eleven {
   flex: 1;
-  height: 100%;
+  height: 60px;
   padding: 20px;
   background-color: blue;
   color: white;
@@ -221,7 +221,16 @@ html {
     height: 100%;
     box-sizing: border-box;
 }
-
+.new-flex-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.new-flex-container img {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+}
 .box.one {
     height: 100%;
     box-sizing: border-box;
