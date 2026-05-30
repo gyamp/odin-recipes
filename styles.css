@@ -1,9 +1,9 @@
 .box.one {
     flex: 1;
-    background-color: blue;
+    background-color: #99C2FF;
     color: white;
     text-align: center;
-    border: 1px solid black;
+    border: 2px light grey;
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -19,7 +19,7 @@
   margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px light black;
+  border: 2px light grey;
   border-radius: 5px;
 }
 
@@ -36,9 +36,9 @@
   height: 60%;
   padding: 20px;
   margin: 10px auto;
-  border: 1px light black;
+  border: 2px light grey;
   border-radius: 5px;
-  background-color: blue;
+  background-color: #99C2FF;
   color: white;
   text-align: center;
   font-style: italic;
@@ -48,11 +48,13 @@ ul {
   gap: 10px;
   padding: 20px;
   margin: 20px 20px 20px;  
-  background-color: orange;   
+  background-color: #99C2FF;   
   list-style: none;  
-  border: 1px light black;
+  border: 2px light grey;
   border-radius: 5px; 
-  text-align: left;   
+  text-align: left;  
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);  
 }
 .box.four a:link, 
 .box.five a:link, 
@@ -60,8 +62,8 @@ ul {
   color: black;
   gap: 10px;
   padding: 10px;
-  background-color: orange; 
-  border: 1px light black;
+  background-color: #CCE0FF; 
+  border: 2px light grey;
   border-radius: 5px;
 }
 .box.four a:visited, 
@@ -98,8 +100,8 @@ margin: 10px 20px;
 }
 .box.seven {
     width: 120px;
-    background-color: orange;
-    border: 1px solid black;
+    background-color: #CCE0FF;
+    border: 7px solid #99C2FF;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -111,7 +113,7 @@ margin: 10px 20px;
 .flex-container {
     display: flex;
     align-items: stretch;
-    gap: 10px; 
+    gap: 20px; 
     width: 100%;
     margin-bottom: 20px;
 }
@@ -132,9 +134,9 @@ font-size: 30px;
   width: 80%;
   padding: 20px;
   margin:  20px auto;
-  border: 1px light black;
+  border: 2px light grey;
   border-radius: 5px;
-  background-color: blue;
+  background-color: #99C2FF;
   color: white;
   text-align: center;
    gap: 10px;
@@ -144,8 +146,8 @@ font-size: 30px;
   color: black;
   gap: 20px;
   padding: 10px;
-  background-color: orange; 
-  border: 1px  black;
+  background-color: #CCE0FF; 
+  border: 2px light grey;
   border-radius: 5px;
   column-gap: 10px;
 }
@@ -155,7 +157,7 @@ font-size: 30px;
   padding: 20px;
   margin: 20px auto;
   gap: 20px;
-  border: 1px light black;
+  border: 2px light grey;
   border-radius: 5px;
 }
 .box.ten img {
@@ -180,8 +182,15 @@ padding: 0;
 }
 body {
     max-width: 900px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
-    background-color: #C8A165;
+    background-color: white;
+    padding-bottom: 60px; 
+}
+.main-content {
+  flex: 1;   
 }
 html {
     background-color: #1a1a1a;
@@ -189,7 +198,7 @@ html {
 .logo {
     width: 120px;
     object-fit: cover;
-    border: 1px solid black;
+    border: 2cqi light grey;
     border-radius: 5px;
     display: block;
     flex-shrink: 0;
@@ -208,10 +217,10 @@ html {
   flex: 1;
   height: 60px;
   padding: 20px;
-  background-color: blue;
+  background-color: #99C2FF;
   color: white;
   text-align: center;
-  border: 1px light black;
+  border: 2px light grey;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -234,4 +243,14 @@ html {
 .box.one {
     height: 100%;
     box-sizing: border-box;
+}
+.footnote {
+  position: static;      
+  max-width: 900px;
+  background-color: #00695c;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  font-size: 14px;
+  box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.3);
 }
