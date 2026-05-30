@@ -303,3 +303,11 @@ html {
 .new-flex-container {
   background-color: transparent;
 }
+.main-content {
+  background-color: transparent;
+  font-size: 20px;
+  gap: 10px;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
